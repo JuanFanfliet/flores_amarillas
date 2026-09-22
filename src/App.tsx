@@ -51,7 +51,7 @@ const Flower = ({ delay, onClick }: { delay: string, onClick: (e: React.MouseEve
 );
 
 // Aquí definimos los tipos que TypeScript te estaba pidiendo
-const Particle = ({ id, x, y, symbol }: { id: number, x: number, y: number, symbol: string }) => {
+const Particle = ({ x, y, symbol }: { id: number, x: number, y: number, symbol: string }) => {
   return (
     <div
       className="absolute pointer-events-none text-2xl select-none"
